@@ -6,7 +6,7 @@ a4d48ee762b0   nginx     "/docker-entrypoint.…"   10 minutes ago   Exited (0) 
 
  
 
-<h3>1.2</h3> - see, the pictures in the folder ./1.2
+<h3>1.2 - see, the pictures in the folder ./1.2 </h3>
 
 $ docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
@@ -16,7 +16,7 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 
 
 
-<h3>1.3</h3>- picture in the folder ./1.3
+<h3>1.3 - picture in the folder ./1.3 </h3>
 docker run -it devopsdockeruh/simple-web-service:ubuntu
 You can find the source code here: https://github.com/docker-hy
 
@@ -71,7 +71,7 @@ Searching..
 
 
 
-<h3>1.5</h3> - see, the pictures in the folder ./1.5
+<h3>1.5 - see, the pictures in the folder ./1.5 </h3>
 devopsdockeruh/simple-web-service   ubuntu: 83 MB
 devopsdockeruh/simple-web-service   alpine: 15.7MB
 
@@ -85,7 +85,7 @@ You found the correct password. Secret message is:
 
 
 
-<h3>1.7</h3> - see, the picture in the folder ./1.7
+<h3>1.7 - see, the picture in the folder ./1.7</h3>
 
 Dockerfile: 
 
@@ -97,7 +97,7 @@ Command: $ docker run web-server server
 
 
 
-<h3>1.8</h3> - see, the picture in the folder ./1.8
+<h3>1.8 - see, the picture in the folder ./1.8</h3>
 
 Dockerfile: 
 
@@ -111,18 +111,18 @@ Command: $ docker run -it curler
 
 
 
-<h3>1.9</h3> - see, the picture in the folder ./1.9
+<h3>1.9 - see, the picture in the folder ./1.9</h3>
 touch /home/epylkkan/tmp/text.log
 docker run -v /home/epylkkan/tmp/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
 
 
 
-<h3>1.10</h3> - see, the picture in the folder ./1.10
+<h3>1.10 - see, the picture in the folder ./1.10</h3>
 docker run -p 8080:8080 web-server server
 
 
 
-<h3>1.11</h3> - see, the picture in the folder ./1.11
+<h3>1.11 - see, the picture in the folder ./1.11</h3>
 
 Dockerfile: 
 
@@ -140,7 +140,7 @@ $ docker run -it -p 8080:8080 spring-example-project
 
 
 
-<h3>1.12</h3> - see, the picture in the folder ./1.12
+<h3>1.12 - see, the picture in the folder ./1.12</h3>
 
 Dockerfile: 
 
@@ -164,7 +164,7 @@ $ docker run  -it -p 5000:5000 front
 
 
 
-<h3>1.13</h3> - see, the picture in the folder ./1.13
+<h3>1.13 - see, the picture in the folder ./1.13</h3>
 
 Dockerfile: 
 
@@ -184,7 +184,7 @@ $ docker run -it -p 8080:8080 back
 
 
 
-<h3>1.14</h3> - see, the picture in the folder ./1.14
+<h3>1.14 - see, the picture in the folder ./1.14</h3>
 
 Commands: 
 $ docker run -it -p 5000:5000 front
