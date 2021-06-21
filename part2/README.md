@@ -1,4 +1,4 @@
-2.1  - see, the picture in the folder ./2.1
+<h3>2.1  - see, the picture in the folder ./2.1</h3>
 
 docker-compose.yml:
 
@@ -12,7 +12,7 @@ services:
 
 
 
-2.2
+<h3>2.2</h3>
 
 docker-compose.yml:
 
@@ -27,7 +27,7 @@ services:
 
 
 
-2.3 - see, the pictures in the folder ./2.3
+<h3>2.3 - see, the pictures in the folder ./2.3</h3>
 
 docker-compose.yml:
 
@@ -51,7 +51,7 @@ services:
 
 
 
-2.4 - see, the picture in the folder ./2.4
+<h3>2.4 - see, the picture in the folder ./2.4</h3>
 
 docker-compose.yml:
 
@@ -77,13 +77,13 @@ services:
 
 
 
-2.5 - see, the pictures in the folder ./2.5
+<h3>2.5 - see, the pictures in the folder ./2.5</h3>
 
 docker-compose up --scale compute=3
 
 
 
-2.6 - see, the picture in the folder ./2.6
+<h3>2.6 - see, the picture in the folder ./2.6</h3>
 
 version: '3.5' 
 services: 
@@ -120,7 +120,7 @@ services:
 
 
 
-2.7 
+<h3>2.7 </h3>
 
 docker-compose.yml: 
 
@@ -148,7 +148,7 @@ volumes:
 
 
 
-2.8 - see, the picture in the folder ./2.8
+<h3>2.8 - see, the picture in the folder ./2.8</h3>
 
 docker-compose.yml:
 
@@ -218,7 +218,7 @@ events { worker_connections 1024; }
 
 
 
-2.9 
+<h3>2.9 </h3>
 
 docker-compose.yml:
 
@@ -261,7 +261,7 @@ services:
 
 
 
-2.10 - see, the picture in the folder ./2.10
+<h3>2.10 - see, the picture in the folder ./2.10</h3>
 
 
 Dockerfiles for the images (front & back) are in the folders /part1/1.12 and /part1/1.13.
@@ -338,7 +338,7 @@ events { worker_connections 1024; }
 
 
 
-2.11
+<h3>2.11</h3>
 
 
 This is one of the first exercises in the "Full Stack Development" -course.

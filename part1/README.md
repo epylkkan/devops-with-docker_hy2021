@@ -16,7 +16,7 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 
 
 
-<h3>1.3 - picture in the folder ./1.3 </h3>
+<h3>1.3 - see, the picture in the folder ./1.3 </h3>
 docker run -it devopsdockeruh/simple-web-service:ubuntu
 You can find the source code here: https://github.com/docker-hy
 
