@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ex22:
+    image: devopsdockeruh/simple-web-service:alpine
+    build: .
+    ports:
+      - 8080:8080
+    command: ex22 server

@@ -1,0 +1,13 @@
+Download files to your container 
+
+Usage: docker run epylkkan/training_docker_devops:tube <URI> 
+
+For example: $ docker run epylkkan/training_docker_devops:tube https://imgur.com/JY5tHqr
+
+epylkkan@LAPTOP-MDHCHJJ7:~/projects$ docker run epylkkan/training_docker_devops:tube https://imgur.com/JY5tHqr
+[Imgur] JY5tHqr: Downloading webpage
+[download] Destination: Imgur-JY5tHqr.mp4
+[download] 100% of 190.20KiB in 00:0079MiB/s ETA 00:00known ETA
+
+
+

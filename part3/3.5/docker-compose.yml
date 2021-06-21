@@ -1,0 +1,48 @@
+version: "3.5"
+
+services:
+
+  redis:
+    image: redis
+    volumes:
+      - ./redisdata:/data       
+
+  db:
+    image: postgres:13.2-alpine
+    container_name: post
+    restart: unless-stopped
+    environment: 
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user
+      - POSTGRES_HOST=post     
+    volumes:
+      - ./database:/var/lib/postgresql/data    
+
+  back:
+    build: ./backend
+    container_name: back
+    ports:
+      - 8080:8080
+    depends_on: 
+      - db  
+      - redis    
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user
+      - POSTGRES_HOST=post
+      - REQUEST_ORIGIN=http://localhost
+
+  front:
+    build: ./frontend
+    container_name: front
+    ports:
+      - 5000:5000
+  
+  proxy:
+    image: nginx
+    container_name: nginxproxy     
+    volumes:
+      - ./nginx/:/etc/nginx/
+    ports:
+      - 80:80 

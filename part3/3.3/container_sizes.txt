@@ -1,0 +1,17 @@
+Base for frontend and backend was the version created in the exercise 2.10 incl. Postgre, nginx and redis.
+In this exercise frontend / backend were cloned from https://github.com/docker-hy/material-applications and built
+instead of using an earlier created image from my own repository in Docker Hub.
+
+Linux image used: openjdk:8
+
+Development tool 
+- frontend: node.js
+- backend: go
+
+Container sizes
+- frontend:  929 MB
+- backend: 1.07 GB 
+
+
+
+

@@ -1,0 +1,22 @@
+// URL: https://dockerdevops116.herokuapp.com/
+
+// application devopsdockeruh/heroku-example pulled from Docker Hub, own application name is 'dockerdevops116'
+// heroku cli installation to Ubuntu 20.04 WSL2: curl https://cli-assets.heroku.com/install.sh | sh
+// see, https://stackoverflow.com/questions/62380637/how-to-install-heroku-cli-on-wsl-2
+
+heroku login
+
+// tag the pulled image as registry.heroku.com/dockerdevops116/web
+docker image tag devopsdockeruh/heroku-example registry.heroku.com/dockerdevops116/web
+
+// Log in to Container Registry
+heroku container:login
+
+// Push Docker app
+docker image push registry.heroku.com/dockerdevops116/web
+
+// Deploy
+heroku container:release web -a dockerdevops116
+
+// URL: https://dockerdevops116.herokuapp.com/
+

@@ -1,0 +1,9 @@
+$ docker run -it devopsdockeruh/simple-web-service:ubuntu
+$ docker container ls -a
+$ docker exec -it magical_hermann bash
+# tail -f ./text.log
+
+  "
+  You can find the source code here: https://github.com/docker-hy
+  "
+

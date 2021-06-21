@@ -1,0 +1,2 @@
+docker run -it -p 5000:5000 front
+docker run -it -p 8080:8080 back

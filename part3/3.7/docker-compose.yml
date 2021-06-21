@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:   
+
+  optimized:
+    build: ./
+    container_name: optimized
+    ports:
+      - 8080:8080

@@ -1,0 +1,3 @@
+This is one of the first exercises in the "Full Stack Development" -course. 
+"Anecdotes" -application developed with node.js was wrapped into a container.
+docker-compose up -> localhost:3000

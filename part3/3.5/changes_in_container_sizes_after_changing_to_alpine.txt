@@ -1,0 +1,11 @@
+Base for frontend and backend was the version created in the exercise 3.4.
+
+Container sizes before (3.3), after optimization (3.4) and after further optimization (3.5) 
+- frontend:  929 MB ->  904 MB -> 307 MB
+- backend: 1.07 GB -> 1.07 GB -> 572 MB
+
+
+Final step reductions were coming from changing the OS-image to Alpine.
+Steps in the Dockerfiles to install node.js, go etc. had to be adjusted to Alpine.
+
+

@@ -1,0 +1,2 @@
+$ touch /home/epylkkan/tmp/text.log
+$ docker run -v /home/epylkkan/tmp/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service

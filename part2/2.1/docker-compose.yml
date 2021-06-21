@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ex21:
+    image: devopsdockeruh/simple-web-service:alpine
+    build: .
+    volumes:
+      - /home/epylkkan/tmp/text.log:/usr/src/app/text.log

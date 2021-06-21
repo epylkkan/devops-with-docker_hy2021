@@ -1,0 +1,11 @@
+Base for frontend and backend was the version created in the exercise 3.3.
+
+Container sizes before (3.3) and after (3.4) optimization 
+- frontend:  929 MB ->  904 MB
+- backend: 1.07 GB -> 1.07 GB 
+
+The reduction in the size for frontend was achieved by chaining the RUN statementes and removal the files not needed.
+In backend it was possible only to chain the RUN statements which did not have an impact contrary to the expectations.
+
+
+

@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: epylkkan/training_docker_devops:exercise32-front
+    build: 
+      context: ./frontend
+      args:
+        - REACT_APP_SERVICES_HOST=/services/m
+    ports:
+      - "80:80"
+    networks: 
+      - frontend
+      - backend
+  
+  backend:
+    image: epylkkan/training_docker_devops:exercise32-back
+    build:
+      context: ./backend
+    networks: 
+      - backend
+
+networks: 
+  frontend:
+  backend:

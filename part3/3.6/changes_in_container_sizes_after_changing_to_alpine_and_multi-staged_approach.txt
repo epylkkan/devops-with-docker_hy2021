@@ -1,0 +1,8 @@
+Base for frontend and backend was the version created in the exercise 3.5.
+
+Container sizes before (3.3), after optimization (3.4), after further optimization (3.5) and after multi-stage approach (3.6)
+
+- frontend:  929 MB ->  904 MB -> 307 MB -> 125 MB 
+- backend: 1.07 GB -> 1.07 GB -> 572 MB -> 25.7 MB 
+
+

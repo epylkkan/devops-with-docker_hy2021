@@ -1,0 +1,20 @@
+version: '3.5' 
+
+services: 
+
+    back: 
+      image: epylkkan/training_docker_devops:back
+      ports: 
+        - 8080:8080
+      container_name: back
+      environment: 
+        - FRONT_END=http://localhost:5000
+       
+    front:
+        image: epylkkan/training_docker_devops:front
+        ports: 
+          - 5000:5000
+        container_name: front
+        environment: 
+          - REQUEST_ORIGIN=http://localhost:5000
+

@@ -1,0 +1,11 @@
+COMMANDS: 
+
+$ docker build . -t epylkkan/training_docker_devops:exercise32
+$ docker run -it -v /var/run/docker.sock:/var/run/docker.sock epylkkan/training_docker_devops:exercise32
+
+
+IMAGES IN DOCKER HUB: 
+
+epylkkan/training_docker_devops:exercise32-back
+epylkkan/training_docker_devops:exercise32-front
+epylkkan/training_docker_devops:exercise32

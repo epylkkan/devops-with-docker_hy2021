@@ -1,0 +1,15 @@
+
+1) GitHub
+epylkkan/docker-hy.github.io
+Secrets were removed after completing the exercise, see the removed_secrets_in_github.png file
+
+Changes to https://github.com/docker-hy/docker-hy.github.io:
+.github/workflows/build.yml updated
+docker-compose.yml created
+
+2) Dockerhub
+epylkkan/training_docker_devops:exercise31
+
+3) HEROKU
+docker-devops-exercise31.herokuapp.com
+

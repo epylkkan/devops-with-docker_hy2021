@@ -1,0 +1,46 @@
+OPTION 1 
+
+$ docker run -d --rm -it --name foo ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+-> curl not found
+
+$ docker exec -it foo bash
+
+# apt-get update
+# apt-get install -y curl
+# exit
+
+-> New window
+$ docker attach foo
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+
+
+
+OPTION 2
+
+$ docker run -d -it --name foo ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+-> curl not found
+
+$ docker run -d -it --name foo ubuntu 
+$ docker exec -it foo bash
+-> # apt-get update
+-> # apt-get install -y curl
+-> # sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>

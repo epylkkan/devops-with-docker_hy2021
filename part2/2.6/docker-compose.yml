@@ -1,0 +1,34 @@
+version: '3.5' 
+
+services: 
+
+    redis:
+      image: redis
+
+    db:
+      image: postgres:13.2-alpine
+      container_name: post
+      restart: unless-stopped  
+      environment: 
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_USER=user
+        - POSTGRES_HOST=post      
+      
+    back: 
+      image: epylkkan/training_docker_devops:back
+      ports: 
+        - 8080:8080
+      environment: 
+        - FRONT_END=http://localhost:5000
+        - REDIS_HOST=redis
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_USER=user
+        - POSTGRES_HOST=post
+
+    front:
+      image: epylkkan/training_docker_devops:front
+      ports: 
+        - 5000:5000
+      container_name: front
+      environment: 
+        - REQUEST_ORIGIN=http://localhost:5000
