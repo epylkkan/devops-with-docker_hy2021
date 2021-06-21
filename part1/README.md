@@ -1,12 +1,12 @@
-<h2> 1.1 </h2>
+<h3> 1.1 </h3>
 CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
 a4d48ee762b0   nginx     "/docker-entrypoint.…"   10 minutes ago   Exited (0) 45 seconds ago             romantic_mcnulty
 2439d0cbb4c4   nginx     "/docker-entrypoint.…"   14 minutes ago   Exited (0) 45 seconds ago             compassionate_shaw
 73e41231fcd2   nginx     "/docker-entrypoint.…"   14 minutes ago   Up 14 minutes               80/tcp    unruffled_sammet
 
+ 
 
-
-1.2 - see, the pictures in the folder ./1.2
+<h3>1.2</h3> - see, the pictures in the folder ./1.2
 
 $ docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
@@ -16,13 +16,13 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 
 
 
-1.3 - picture in the folder ./1.3
+<h3>1.3</h3>- picture in the folder ./1.3
 docker run -it devopsdockeruh/simple-web-service:ubuntu
 You can find the source code here: https://github.com/docker-hy
 
 
 
-1.4
+<h3>1.4</h3>
 
 OPTION 1
 
@@ -71,13 +71,13 @@ Searching..
 
 
 
-1.5 - see, the pictures in the folder ./1.5
+<h3>1.5</h3> - see, the pictures in the folder ./1.5
 devopsdockeruh/simple-web-service   ubuntu: 83 MB
 devopsdockeruh/simple-web-service   alpine: 15.7MB
 
 
 
-1.6 
+<h3>1.6</h3>
 $ docker run -it devopsdockeruh/pull_exercise
 Give me the password: basics
 You found the correct password. Secret message is:
@@ -85,7 +85,7 @@ You found the correct password. Secret message is:
 
 
 
-1.7 - see, the picture in the folder ./1.7
+<h3>1.7</h3> - see, the picture in the folder ./1.7
 
 Dockerfile: 
 
@@ -97,7 +97,7 @@ Command: $ docker run web-server server
 
 
 
-1.8 - see, the picture in the folder ./1.8
+<h3>1.8</h3> - see, the picture in the folder ./1.8
 
 Dockerfile: 
 
@@ -111,18 +111,18 @@ Command: $ docker run -it curler
 
 
 
-1.9 - see, the picture in the folder ./1.9
+<h3>1.9</h3> - see, the picture in the folder ./1.9
 touch /home/epylkkan/tmp/text.log
 docker run -v /home/epylkkan/tmp/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
 
 
 
-1.10 - see, the picture in the folder ./1.10
+<h3>1.10</h3> - see, the picture in the folder ./1.10
 docker run -p 8080:8080 web-server server
 
 
 
-1.11 - see, the picture in the folder ./1.11
+<h3>1.11</h3> - see, the picture in the folder ./1.11
 
 Dockerfile: 
 
@@ -140,7 +140,7 @@ $ docker run -it -p 8080:8080 spring-example-project
 
 
 
-1.12 - see, the picture in the folder ./1.12
+<h3>1.12</h3> - see, the picture in the folder ./1.12
 
 Dockerfile: 
 
@@ -164,7 +164,7 @@ $ docker run  -it -p 5000:5000 front
 
 
 
-1.13 - see, the picture in the folder ./1.13
+<h3>1.13</h3> - see, the picture in the folder ./1.13
 
 Dockerfile: 
 
@@ -184,7 +184,7 @@ $ docker run -it -p 8080:8080 back
 
 
 
-1.14 - see, the picture in the folder ./1.14
+<h3>1.14</h3> - see, the picture in the folder ./1.14
 
 Commands: 
 $ docker run -it -p 5000:5000 front
@@ -192,7 +192,7 @@ $ docker run -it -p 8080:8080 back
 
 
 
-1.15
+<h3>1.15</h3>
 
 Docker Hub: 
 https://hub.docker.com/repository/docker/epylkkan/training_docker_devops -> tube 
@@ -215,7 +215,7 @@ For example: $ docker run epylkkan/training_docker_devops:tube https://imgur.com
 
 
 
-1.16
+<h3>1.16</h3>
 
 URL: https://dockerdevops116.herokuapp.com/
 
