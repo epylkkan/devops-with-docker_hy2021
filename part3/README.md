@@ -1,4 +1,4 @@
-3.1 - see, the pictures in the folder ./3.1
+<h3>3.1 - see, the pictures in the folder ./3.1</h3>
 
 1) GitHub
 epylkkan/docker-hy.github.io
@@ -69,7 +69,7 @@ services:
 
 
 
-3.2
+<h3>3.2</h3>
 
 1) Application cloned within the container: https://github.com/pmckeetx/docker-nginx.git
 
@@ -151,7 +151,7 @@ $ docker run -it -v /var/run/docker.sock:/var/run/docker.sock epylkkan/training_
 
 
 
-3.3 - see, the docker-compose.yml, nginx.conf and container sizes in the folder ./3.3
+<h3>3.3 - see, the docker-compose.yml, nginx.conf and container sizes in the folder ./3.3</h3>
 
 Dockerfiles: 
 
@@ -211,7 +211,7 @@ CMD serve -s -l 5000 build
 
 
 
-3.4 - see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.4
+<h3>3.4 - see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.4</h3>
 
 Dockerfiles: 
 
@@ -285,7 +285,7 @@ In backend it was possible only to chain the RUN statements which did not have a
 
 
 
-3.5 -  see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.5
+<h3>3.5 -  see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.5</h3>
 
 Dockerfiles: 
 
@@ -359,7 +359,7 @@ Steps in the Dockerfiles to install node.js, go etc. had to be adjusted to Alpin
 
 
 
-3.6 - see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.6
+<h3>3.6 - see, the docker-compose.yml, nginx.conf and container sizes picture in the folder ./3.6</h3>
 
 Dockerfiles: 
 
@@ -437,7 +437,7 @@ Container sizes before (3.3), after optimization (3.4), after further optimizati
 
 
 
-3.7 - see, the container sizes picture and docker-compose.yml in the foloder ./3.7
+<h3>3.7 - see, the container sizes picture and docker-compose.yml in the foloder ./3.7</h3>
 
 Application: spring-example-project -project (Java) from the course material
 
@@ -476,4 +476,4 @@ Size differences:
 
 
 
-3.8 - see, the picture in the folder ./3.8
+<h3>3.8 - see, the picture in the folder ./3.8</h3>
